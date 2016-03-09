@@ -18,7 +18,7 @@ It's my first Arduino project.
 # Arduino components and modules
 
 - Arduino Mega
-- LCD Display 16x2 + potentiometer to set lcd brightness (specially important on night driving)
+- LCD Display 16x2 + potentiometer to set lcd brightness (specially important in night driving)
 - GSM Module (SIM 800L)
 - Joystick
 - Momentary buttons
@@ -29,8 +29,10 @@ It's my first Arduino project.
 
 # Usage
 
-Communications are based in GSM technology (SMS). Maybe future versions will implement GPRS and web sockets. I know SMS are not cool.
-This gadget features a LCD screen, a set of momentary buttons and a joystick.
+Communications are based in GSM technology (SMS). Maybe future versions will implement GPRS and web sockets, I know SMS are not cool.
+
+This gadget features a LCD screen, a set of momentary buttons and a joystick:
+
 	-	Buttons send predefined messages to box.
 	-	Joystick implements an interface for navigating all the features shown in the LCD screen.
 	-	Messages received are shown on the LCD
