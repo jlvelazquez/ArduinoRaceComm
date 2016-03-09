@@ -35,4 +35,4 @@ This gadget features a LCD screen, a set of momentary buttons and a joystick:
 
 	-	Buttons send predefined messages to box.
 	-	Joystick implements an interface for navigating all the features shown in the LCD screen.
-	-	Messages received are shown on the LCD
+	-	Messages received are shown in the LCD
