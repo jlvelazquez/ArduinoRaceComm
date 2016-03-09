@@ -15,4 +15,4 @@ Future developments will take this to a full race computer system for data loggi
 - Joystick
 - Momentary buttons
 - A cool enclosure. This computer has to be practical and cool.
-- Batteries. First version will use a power bank for Arduino Mega connected to USB port (5V - 500mA) and a LiPo S1 (3.7V) for the GSM Module. The initial idea is to make a 100% portable version. Future implementations will be able to connect to car lighter or directly to the 12V car battery. Estimated operating time with 9000mAh is more than 30 hours in "normal use".
+- Batteries. First version will use a power bank for Arduino Mega connected to USB port (5V - 500mA) and a LiPo 1S (3.7V) for the GSM Module. The initial idea is to make a 100% portable version. Future implementations will be able to connect to car lighter or directly to the 12V car battery. Estimated operating time with 9000mAh is more than 30 hours in "normal use".
