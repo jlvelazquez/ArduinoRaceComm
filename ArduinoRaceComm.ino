@@ -36,11 +36,8 @@
 // initialize the library with the numbers of the interface pins
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);
 
-//Boton y Buzzer
-const int buttonPin = 6; 
+//Buzzer
 const int Buzzer1 = 9;
-int buttonState = 0;
-int previousButtonState = 0;
 
 //Declare menú options
 int currentMenu = 0;
@@ -54,7 +51,6 @@ Chrono myChrono(Chrono::SECONDS);
 unsigned long elapsed = myChrono.elapsed();
 
 void setup() {
-  pinMode(buttonPin, INPUT);
   pinMode(Buzzer1, OUTPUT);
   Serial.begin(9600);
   charsFactory();
@@ -109,17 +105,6 @@ byte arrow[8]{0b00000,
 };
 void charsFactory(){
    lcd.createChar(0, arrow);
-}
-
-int getButtonState(){
-  return digitalRead(buttonPin);
-}
-
-float getTemp(){
-    float sensor = analogRead(A0);  
-    float voltage = sensor * 5 / 1023; //2^10
-    float temp =  voltage * 100; //LM35DZ
-    return temp;
 }
 
 void playTone(int vol){
@@ -240,7 +225,7 @@ void animateIntro() {
     delay(1000);
     begin = 1;
     lcd.clear();
-   // initMenu();
+   // initMenu(); //UNCOMMENT TO SEE MENU. COMMENT TO SEE PREVIEW OF CHRONO
   }
 }
 
