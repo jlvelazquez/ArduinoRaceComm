@@ -1,7 +1,7 @@
 # ArduinoRaceComm
 Arduino computer for endurance racing
 
-W O R K I N P R O G R E S S   
+W O R K I N P R O G R E S S   - only scrollable menu with buzzer implemented
 
 This Arduino project implements an easy-to-use, lowcost bi-directional communication system between driver and box team.
 

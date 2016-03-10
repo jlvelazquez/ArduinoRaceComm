@@ -1,4 +1,11 @@
 /*
+ * 
+ * Arduino Race Computer
+ * 
+ * @autor: jlvelazquez
+ * https://github.com/jlvelazquez/ArduinoRaceComm
+ * 
+ * 
 
   The LCD circuit:
   
@@ -67,7 +74,6 @@ void welcomeMsg(){
 
 void initMenu(){  
   lcd.clear();
-  previousButtonState = buttonState;
   lcd.write(byte(0));
   lcd.setCursor(1,0);
   lcd.print(menu[currentMenu]);
